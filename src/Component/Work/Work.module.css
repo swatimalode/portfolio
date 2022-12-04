@@ -1,0 +1,96 @@
+.layout {
+  animation: slow 2s ease-out forwards;
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  text-align: center;
+  padding: 2%;
+}
+
+@keyframes slow {
+  from {
+    opacity: 0;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(3px);
+  }
+}
+
+.layout div{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    height: 20rem;
+    width: 100%;
+}
+
+.card_data{
+    flex-direction: column;
+}
+
+.header_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: justify;
+    background-color: #c8e5f8;
+    width: 46.6rem;
+    height: 5em;
+    padding: 2%;
+    border-radius: 12px;
+}
+
+.div_data {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    width: 44rem;
+    gap: 12px;
+}
+
+.profile_picture {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+}
+
+.project_data{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.project_data section{
+  flex-direction: row;
+  justify-content: space-between;
+  gap:2em
+}
+
+.project_data section button{
+  cursor: pointer;
+  width: 3em;
+  height: 3em;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.project_data section button:hover {
+  transform: scale(1.1);
+}
+
+.profile_picture:hover {
+  transform: scale(1.1);
+  z-index: 999;;
+}
+
+.education_data{
+  display: flex;
+  flex-direction: column;
+}

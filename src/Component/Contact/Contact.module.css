@@ -1,0 +1,69 @@
+.layout {
+  display: flex;
+  padding: 5%;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.card_details {
+  width: 30em;
+}
+
+.card_details div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+  margin-top: 1em;
+  padding: 1em;
+}
+
+.card_details div label {
+  font-size: larger;
+}
+
+.card_details div input {
+  box-sizing: content-box;
+  height: 2em;
+}
+
+.pop {
+  z-index: 9999;
+  background-color: rgb(147, 180, 209);
+  font-size: larger;
+  position: fixed;
+  width: 30rem;
+  height: 10rem;
+  text-align: center;
+  border: black;
+  margin-top: 10rem;
+}
+
+.pop h2 {
+  margin-top: 4rem;
+}
+
+.button_data {
+  cursor: pointer;
+  width: 7em;
+  height: 5em;
+  text-align: center;
+  display: block;
+  background-color: #a5d1ee;
+  border-radius: 20%;
+  border: 2rem rgb(20, 20, 20);
+}
+
+.button_data:focus {
+  color: #3498db;
+}
+
+.button_data:hover {
+  transform: scale(1.1);
+  background-color: rgb(141, 192, 236);
+}
+
+.card_details p {
+  padding: 2%;
+  text-align: justify;
+}

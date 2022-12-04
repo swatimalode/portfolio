@@ -1,0 +1,21 @@
+.layout {
+  display: flex;
+  padding: 5%;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.card_data {
+  width: 90%;
+  padding: 6%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.card_data div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+}

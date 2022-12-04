@@ -1,0 +1,13 @@
+*{
+  /* background-color: rgb(152, 201, 230); */
+}
+
+.backdrop {
+  position: fixed;
+  top:-120em;
+  left: 0;
+  width: 1500vh;
+  height: 5100vh;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.15);
+}

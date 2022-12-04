@@ -1,0 +1,46 @@
+.profile_picture {
+  width: 80%;
+  height: 18em;
+  border-radius: 45%;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  display: block;
+}
+
+.layout {
+  padding: 5%;
+  gap: 2%;
+}
+
+.layout label {
+  font: bold;
+  font-size: 3rem;
+}
+
+.layout h5 {
+  font: bold;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(88, 183, 247);
+  margin-bottom: 4em;
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+}
+
+.social_media button {
+  cursor: pointer;
+  width: 3em;
+  height: 3em;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.social_media button:hover {
+  transform: scale(1.1);
+}
