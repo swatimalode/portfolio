@@ -139,7 +139,7 @@ var Work = () => {
             <label style={{ fontSize: "25px" }}>
               <b>Masters</b>
             </label>
-            <label>pecialisation</label>
+            <label>specialization</label>
             <label>date</label>
           </header>
         </Card>
@@ -148,7 +148,7 @@ var Work = () => {
             <label style={{ fontSize: "25px" }}>
               <b>Degree</b>
             </label>
-            <label>Specialisation</label>
+            <label>specialization</label>
             <label>Grade</label>
           </header>
         </Card>
